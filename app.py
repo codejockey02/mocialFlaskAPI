@@ -35,4 +35,8 @@ def predict():
     review = request.get_json()['review']
     words = word_tokenize(review)
     words = create_word_features(words)
-    return(model.classify(words))
+    return (model.classify(words))
+
+
+if __name__ == "__main__":
+    app.run("127.0.0.1", "3004", debug=True)
