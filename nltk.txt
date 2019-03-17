@@ -1,3 +1,5 @@
 nltk
 stopwords
+punkt
 word_tokenize
+popular
