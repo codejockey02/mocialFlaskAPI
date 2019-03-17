@@ -1,2 +1,2 @@
-web: python app.py
+web: flask run
 heroku ps:scale web=1
