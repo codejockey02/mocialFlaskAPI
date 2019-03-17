@@ -1,2 +1,3 @@
+nltk
 stopwords
 word_tokenize
