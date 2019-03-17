@@ -3,3 +3,4 @@ stopwords
 punkt
 word_tokenize
 popular
+tokenizers
