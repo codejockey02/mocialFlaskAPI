@@ -1,3 +1,3 @@
 FLASK_APP=run.py 
-web: flask run
+web: gunicorn hello:app
 heroku ps:scale web=1
