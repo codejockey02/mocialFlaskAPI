@@ -1,3 +1,3 @@
 FLASK_APP=run.py 
-web: gunicorn hello:app
+web: gunicorn app:app
 heroku ps:scale web=1
