@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Mar 17 03:03:04 2019
-
-@author: priyesh_saraswat
-"""
 import pickle
 from flask import Flask
 from flask import request
